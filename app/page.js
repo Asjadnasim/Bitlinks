@@ -14,7 +14,7 @@ export default function Home() {
 			<section className='grid grid-cols-2 h-[50vh]'>
 				<div className='flex flex-col gap-4 items-center justify-center'>
 					<p className={`text-3xl font-bold ${poppins.className}`}>
-						The best Url shorterner in the Market
+						The best Url shortener in the Market
 					</p>
 					<p className='text-center text-pretty px-8'>
 						Bitlinks is a simple and easy to use URL shortener for the internet

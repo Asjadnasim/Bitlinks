@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-const page = () => {
+const Page = () => {
 	const [url, seturl] = useState('');
 	const [shorturl, setshorturl] = useState('');
 	const [generated, setGenerated] = useState('');
@@ -57,7 +57,7 @@ const page = () => {
 					onChange={(e) => setshorturl(e.target.value)}
 				/>
 				<button
-					className=' text-white bg-purple-500 shadow-lg py-1 px-3 font-bold rounded-lg my-3 '
+					className='text-white bg-purple-500 shadow-lg py-1 px-3 font-bold rounded-lg my-3'
 					onClick={generate}
 				>
 					Generate
@@ -75,4 +75,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default Page;
